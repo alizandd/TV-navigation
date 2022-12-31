@@ -42,8 +42,8 @@ const Home = ({navigation}) => {
 
   useFocusEffect(
     useCallback(() => {
-      KeyEvent.removeKeyDownListener();
-      console.log('test');
+      //KeyEvent.removeKeyDownListener();
+      console.log('Home');
 
       // ...
       //const xPos = useSelector(state => state.pos.x);

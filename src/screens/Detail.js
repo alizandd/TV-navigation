@@ -28,7 +28,7 @@ import {
   rightKey,
   setYLength,
   upKey,
-} from '../redux/actions/homeKeyAction';
+} from '../redux/actions/detailKeyAction';
 import {useFocusEffect} from '@react-navigation/native';
 
 const Detail = ({navigation}) => {
@@ -39,13 +39,13 @@ const Detail = ({navigation}) => {
         console.log(`onKeyDown keyCode Detail: ${key.keyCode}`);
         switch (key.keyCode) {
           case 22: //right
-            // dispatch(rightKey());
+            //dispatch(rightKey());
             break;
           case 21: //left
             //dispatch(leftKey());
             break;
           case 20: //down
-            //(downKey());
+            //dispatch(downKey());
             break;
           case 19: //up
             //dispatch(upKey());
